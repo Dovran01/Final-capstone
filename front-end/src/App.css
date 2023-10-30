@@ -1,0 +1,155 @@
+/* --- Media Queries --- */
+
+/* For smaller screens */
+@media screen and (max-width: 767.98px) {
+  /* Navbar - on top */
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+
+  .navbar-icon {
+    margin: auto 16px;
+    padding-right: 8px;
+  }
+
+  [aria-current]:not([aria-current="false"]) {
+    background-color: #495057;
+    height: 40px;
+  }
+
+  /* ReservationForm + TableForm + Search */
+  .form-fieldset {
+    margin: 20px 0px;
+  }
+
+  .form-main {
+    padding: 10px 20px;
+  }
+
+  .form-item {
+    margin-bottom: 20px;
+  }
+
+  .search-button {
+    height: 48px;
+  }
+}
+
+/* For bigger screens */
+@media screen and (min-width: 768px) {
+  /* Navbar - on left */
+  .navbar {
+    width: 220px;
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+
+  .nav-link {
+    transition: margin-left 0.25s 0.15s, padding-left 0.25s 0.15s, transform 0.25s 0.15s;
+  }
+
+  .nav-link:hover {
+    margin-left: 5px;
+    padding-left: 10px;
+    transform: scale(1.1);
+  }
+
+  [aria-current]:not([aria-current="false"]) {
+    background-color: #495057;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 195px;
+    font-weight: bold;
+  }
+
+  /* ReservationForm + TableForm + Search */
+  .form-fieldset {
+    margin: 20px 30px;
+  }
+
+  .form-main {
+    padding: 40px 80px 30px 60px;
+  }
+
+  .form-item {
+    margin-bottom: 30px;
+  }
+
+  .search-button {
+    height: 48px;
+  }
+
+}
+
+/* --- Navbar Styling --- */
+
+.navbar-brand {
+  font-family: Yeseva One, serif;
+	font-size: 1.5em;
+}
+
+.nav-item {
+  font-family: Josefin Sans, sans-serif;
+	font-size: 1.1em;
+}
+
+/* --- Reservation + Table Styling --- */
+
+.reservation-card {
+  height: 121px;
+
+  .card-title {
+    font-size: 1.1em;
+  }
+
+  .card-subtitle, .card-text {
+    font-size: 0.9em;
+  }
+
+  .btn-sm {
+    padding: 2px 5px;
+  }
+
+  .id {
+    font-size: 0.8em;
+  }
+}
+
+.table-card {
+  height: 100px;
+
+  .card-title {
+    font-size: 1.1em;
+  }
+
+  .card-subtitle, .card-text {
+    font-size: 0.9em;
+  }
+
+  .btn-sm {
+    padding: 2px 5px;
+  }
+
+  .id {
+    font-size: 0.8em;
+  }
+}
+
+/* --- General Styling --- */
+
+.icon-right-margin {
+  margin-right: 8px;
+}
+
+.header-font {
+  font-family: Yeseva One, serif;
+}
+
+.sub-header-font {
+  font-family: Josefin Sans, sans-serif;
+}
+
+.main-font {
+  font-family: Lato, sans-serif;
+}
